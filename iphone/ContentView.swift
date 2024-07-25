@@ -48,6 +48,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .fixedSize()
                 }
+//                .background(Rectangle() .foregroundColor(.white))
                 .background(Rectangle() .foregroundColor(Color(hue: 0.052, saturation: 0.518, brightness: 0.999, opacity: 0.778)))
                 .cornerRadius(15.0)
             Text("------------------------------------------")
@@ -87,9 +88,13 @@ struct ContentView: View {
                     Image(systemName: "heart")
                 }
             }
+            HStack(){
+                
+            }
+            
+            
         }
         }
-    
     }
 //        VStack {
 //            Image(systemName: "globe")
